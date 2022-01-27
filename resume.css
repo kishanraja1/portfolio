@@ -4,6 +4,10 @@ body {
   text-align: center;
 }
 
+h1 {
+  font-size: 400%;
+}
+
 
 /* nav bar styling */
 
@@ -22,6 +26,11 @@ a:hover {
 
 h3:hover {
   cursor: pointer;
+}
+
+.icon {
+  padding-top: .5%;
+  padding-left: .5%;
 }
 
 #nav {

@@ -4,6 +4,10 @@ body {
   text-align: center;
 }
 
+h1 {
+  font-size: 400%;
+}
+
 .info {
   display: none;
   width: 60%;
@@ -32,6 +36,11 @@ a:hover {
 h3:hover {
   cursor: pointer;
   font-weight: bolder;
+}
+
+.icon {
+  padding-top: .5%;
+  padding-left: .5%;
 }
 
 #nav {

@@ -13,6 +13,15 @@ a {
   color: black;
 }
 
+h1 {
+  font-size: 400%;
+}
+
+.icon {
+  padding-top: .5%;
+  padding-left: .5%;
+}
+
 /* nav bar styling */
 
 #nav {
