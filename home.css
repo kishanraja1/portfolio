@@ -12,3 +12,31 @@ a {
   text-decoration: none;
   color: black;
 }
+
+h2 {
+  font-size: 120%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Nav-bar styling */
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links ul {
+  display: flex;
+  position: relative;
+  right: 20%;
+}
+
+.nav-links ul li {
+  margin: 0 2%
+}

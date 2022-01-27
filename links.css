@@ -12,3 +12,20 @@ a {
   text-decoration: none;
   color: black;
 }
+
+/* nav bar styling */
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links ul {
+  display: flex;
+  position: relative;
+  right: 20%;
+}
+
+.nav-links ul li {
+  margin: 0 2%
+}
