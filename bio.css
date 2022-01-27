@@ -3,3 +3,13 @@ body {
   color: #36453b;
   text-align: center;
 }
+
+.info {
+  display: none;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.item-1 {
+  display: block;
+}

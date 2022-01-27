@@ -3,16 +3,34 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="projects.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"
+/>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"
+></script>
     <script src="projects.js" charset="utf-8"></script>
     <title>Projects</title>
   </head>
   <body>
     <h1>Kishan's Portfolio Website</h1>
     <h2>Welcome to my projects</h2>
-    <h3>Below you will see a progression of my work through various projects that I completed. Enjoy!</h3>
 
 
-      <div class="carousel">
+
+      <div class="container">
+        <h3>Below you will see a progression of my work through various projects that I completed. Enjoy!</h3>
+        <div class="carousel-container">
+          <div class="carousel-button previous">
+            <!-- from linearicons icon font -->
+            <span class="lnr lnr-chevron-left"></span>
+          </div>
+
+        <!-- Images that are being rotated -->
+        <div class="carousel-images">
 
         <div class="carousel-item item-1">
           <h4>Flowerbox.</h4>
@@ -32,9 +50,14 @@
           <img src="images/rps.png" alt="">
         </div>
 
+        </div>
 
+        <div class="carousel-button next">
+          <!-- from linearicons icon font -->
+          <span class="lnr lnr-chevron-right"></span>
+        </div>
       </div>
-
+      </div>
 
   </body>
 </html>

@@ -3,3 +3,16 @@ body {
   color: #36453b;
   text-align: center;
 }
+
+img {
+  width: 40%;
+  height: 40%;
+}
+
+.carousel-images div:first-of-type {
+	display:block;
+}
+
+.carousel-images div {
+	display:none;
+}
