@@ -1,6 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #f5f9e9;
-  color: #36453b;
+  color: #333d29;
   text-align: center;
 }
 
@@ -13,8 +17,24 @@ a {
   color: black;
 }
 
+a:hover {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 500%
+}
+
 h2 {
   font-size: 120%;
+  width: 100%
+}
+
+h4 {
+  margin-top: 10%;
+  font-size: 200%;
+  text-align: center;
+  font-family: cursive;
 }
 
 .container {
@@ -24,11 +44,17 @@ h2 {
   flex-direction: column;
 }
 
+.icon {
+  padding-top: .5%;
+  padding-left: .5%;
+}
+
 /* Nav-bar styling */
 
 #nav {
   display: flex;
   justify-content: space-between;
+  background-color: #a4ac86
 }
 
 .nav-links ul {
@@ -39,4 +65,17 @@ h2 {
 
 .nav-links ul li {
   margin: 0 2%
+}
+
+footer {
+  background-color: #a4ac86;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 2% 0
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
 }
