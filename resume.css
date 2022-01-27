@@ -16,9 +16,18 @@ a {
   color: black;
 }
 
+a:hover {
+  font-weight: bold;
+}
+
+h3:hover {
+  cursor: pointer;
+}
+
 #nav {
   display: flex;
   justify-content: space-between;
+  background-color: #a4ac86
 }
 
 .nav-links ul {
@@ -29,4 +38,17 @@ a {
 
 .nav-links ul li {
   margin: 0 2%
+}
+
+footer {
+  background-color: #a4ac86;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 2% 0
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
 }

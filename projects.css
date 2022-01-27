@@ -4,9 +4,44 @@ body {
   text-align: center;
 }
 
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.container > img {
+	width: 50%;
+}
+
+.carousel-container {
+	width: 70%;
+  height: 40%;
+	display: flex;
+	justify-content: center;
+}
+
+.carousel-images {
+	width: 80%;
+	background: #c2c1a5;
+	padding: 10px;
+}
+
+.carousel-button {
+	align-self: center;
+	background: #c2c1a5;
+	padding: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
+	text-align: center;
+}
+
+.carousel-button:hover {
+	cursor: pointer;
+	background: #bfcc94;
+}
+
 img {
   width: 40%;
-  height: 40%;
 }
 
 .carousel-images div:first-of-type {
@@ -28,9 +63,15 @@ a {
   color: black;
 }
 
+a:hover {
+  font-weight: bold;
+}
+
+
 #nav {
   display: flex;
   justify-content: space-between;
+  background-color: #a4ac86
 }
 
 .nav-links ul {
@@ -41,4 +82,17 @@ a {
 
 .nav-links ul li {
   margin: 0 2%
+}
+
+footer {
+  background-color: #a4ac86;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 2% 0
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
 }

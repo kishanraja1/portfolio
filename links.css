@@ -29,3 +29,32 @@ a {
 .nav-links ul li {
   margin: 0 2%
 }
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #a4ac86
+}
+
+.nav-links ul {
+  display: flex;
+  position: relative;
+  right: 20%;
+}
+
+.nav-links ul li {
+  margin: 0 2%
+}
+
+footer {
+  background-color: #a4ac86;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 2% 0
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+}
