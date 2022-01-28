@@ -59,5 +59,9 @@ footer {
 
 .footer-links {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.footer-links a {
+  margin: 0 1%;
 }

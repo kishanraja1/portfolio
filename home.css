@@ -17,20 +17,27 @@ a {
   color: black;
 }
 
+a:hover {
+  font-weight: bold;
+}
+
 h1 {
-  font-size: 400%
+  font-size: 200%
 }
 
 h2 {
-  font-size: 120%;
+  font-size: 200%;
   width: 100%
 }
 
 h4 {
-  margin-top: 10%;
-  font-size: 200%;
+  margin-top: 6%;
+  font-size: 20px;
   text-align: center;
   font-family: cursive;
+  width: 80%;
+  position: relative;
+  left:10%
 }
 
 .container {
@@ -38,6 +45,7 @@ h4 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 100%;
 }
 
 .icon {
@@ -50,13 +58,16 @@ h4 {
 #nav {
   display: flex;
   justify-content: space-between;
-  background-color: #a4ac86
+  background-color: #a4ac86;
+  position: sticky;
+  top: 0;
 }
 
 .nav-links ul {
   display: flex;
   position: relative;
   right: 20%;
+  flex: 1
 }
 
 .nav-links ul li {
@@ -68,10 +79,15 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding: 2% 0
+  padding: 2% 0;
+  margin-top: 4%
 }
 
 .footer-links {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.footer-links a {
+margin: 0 1%;
 }

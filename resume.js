@@ -5,8 +5,17 @@
 
 $(() => {
 
-  $(".info").hide();
+  const $resumeSection = $(".info")
+  $resumeSection.hide();
 
-  $(".accordion h3").click(function(){ $(this).next("div").slideToggle("slow") .siblings("div:visible").slideUp("slow"); $(this).toggleClass("active"); $(this).siblings("h3").removeClass("active"); })
+  const $h3 = $(".accordion h3")
+
+  $h3.click(function(){
+    // toggle the div immediately after the clicked h3
+    $(this).next("div").slideToggle()
+    //toggle all currently visible divs
+    .siblings("div:visible").slideToggle();
+
+   ; })
 
 })
