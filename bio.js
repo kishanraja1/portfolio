@@ -2,7 +2,13 @@
 //   console.log('oops! I still have to link my jQuery properly!')
 // } else {console.log('I did it! I linked jQuery and this js file properly!')}
 
+const toggleItems = () => {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
 $(() => {
+
+$('.dropbtn').on('click', toggleItems)
 
 ////////////// Function for accordion function//////////////////////
 //hiding all h3s

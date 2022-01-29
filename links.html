@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="links.css">
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
     <script src="links.js" charset="utf-8"></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <title>Links</title>
@@ -10,17 +14,20 @@
   <body>
 
     <nav id="nav">
-      <div class="icon">
-        <a href="home.html"><i class="far fa-file-code fa-2x"></i></a>
+      <div class="dropdown">
+        <i class="far fa-caret-square-down dropbtn"></i>
+        <!-- <button class="dropbtn">Links</button> -->
+        <div id="myDropdown" class="dropdown-content">
+          <a href="home.html">Home</a>
+          <a href="bio.html">Bio</a>
+          <a href="resume.html">Resume</a>
+          <a href="projects.html">Projects</a>
+          <a href="links.html">Links</a>
+        </div>
       </div>
 
-      <div class="links nav-links">
-      <ul>
-        <li><a href="bio.html" target="_blank">Bio</a></li>
-        <li><a href="resume.html" target="_blank">Resume</a></li>
-        <li><a href="projects.html" target="_blank">Projects</a></li>
-        <li><a href="links.html" target="_blank">Links</a></li>
-      </ul>
+      <div class="icon">
+        <i href='home.html' class="far fa-file-code fa-2x"></i>
       </div>
     </nav>
 

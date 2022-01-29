@@ -1,7 +1,16 @@
-console.log("corgi carousel connected to app.js!");
+const toggleItems = () => {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
 
 
 $(() => {
+
+
+/////// DROPDOWN MENU ///////////////////////
+$('.dropbtn').on('click', toggleItems)
+
+
+  ////////// CAROUSEL FEATURE //////////////////////
 
   currentImgIndex = 0;
   numOfImages = $('.carousel-images').children().length - 1

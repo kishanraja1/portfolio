@@ -2,8 +2,18 @@
 //   console.log('oops! I still have to link my jQuery properly!')
 // } else {console.log('I did it! I linked jQuery and this js file properly!')}
 
+const toggleItems = () => {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
 
 $(() => {
+
+///// DROPDOWN MENU ///////////////////////
+$('.dropbtn').on('click', toggleItems)
+
+
+
+//////// ACCORDION FEATURE //////////////
 
   const $resumeSection = $(".info")
   $resumeSection.hide();
