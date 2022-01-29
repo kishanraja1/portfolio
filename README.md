@@ -10,10 +10,11 @@ Here is a link to my live site: https://upbeat-engelbart-2688b5.netlify.app/
 To complete this project, I took the following steps:
 
 1. Lay out and link all of the HTML that I needed.
-2. Add the JS/jQuery and ensure it was running properly
+2. Add the JS/jQuery that created the accordion and carousel interactivity
 3. Add initial CSS
-4. Add additional user interactions, after my MVP was complete
-5. Update this readMe to ensure all steps were met.
+5. Add a media query to allow for a responsive navbar.
+6. Finalize CSS to correct positioning and color scheme
+7. Update this readMe to ensure all steps were met.
 
 
-Here are a list of unsolved problems I faced while creating this project:
+Here are a list of unsolved problems I faced while creating this project.
