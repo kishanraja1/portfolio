@@ -11,8 +11,8 @@ $(() => {
 $('.dropbtn').on('click', toggleItems)
 
 ////////////// Function for accordion function//////////////////////
-//hiding all h3s
-  const $content = $(".accordion p")
+//hiding all divs inside of .accordion class
+  const $content = $(".accordion div")
   $content.hide();
 
   const $h3 = $(".accordion h3")
@@ -21,9 +21,9 @@ $('.dropbtn').on('click', toggleItems)
   $h3.click(function()
   {
     // slowly expose content in the p that follows the h3 that was clicked
-    $(this).next("p").slideToggle()
+    $(this).next("div").slideToggle()
     // slowly hide the current visible p tag
-    .siblings("p:visible").slideToggle();
+    .siblings("div:visible").slideToggle();
   })
 
 })

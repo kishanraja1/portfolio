@@ -49,6 +49,11 @@ p {
   padding-left: .5%;
 }
 
+.about-photos {
+  height: 10rem;
+  width: 10rem;
+}
+
 /* Nav-bar styling */
 
 #nav {
