@@ -54,6 +54,7 @@ h1 {
 .dropdown-content {
   display: none;
   position: absolute;
+  right: 1px;
   background-color: #a4ac86;
 }
 
