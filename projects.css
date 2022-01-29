@@ -141,3 +141,33 @@ footer {
 .footer-links a {
   margin: 0 1%;
 }
+
+
+@media only screen and (min-width:600px) {
+
+  .dropdown i {
+    display: none;
+  }
+
+  /* Dropdown content hidden until clicked */
+  .dropdown-content {
+    display: flex;
+    background-color: #a4ac86;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 10px 16px 0;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    font-weight: bold;
+    background-color: #a4ac86;
+  }
+
+
+}
