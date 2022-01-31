@@ -7,6 +7,7 @@ const toggleItems = () => {
 $(() => {
 
 //////// EVENT LISTENER FOR DROPDOWN MENU /////////////////
+
 $('.dropbtn').on('click', toggleItems)
 
 })

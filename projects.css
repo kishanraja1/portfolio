@@ -8,6 +8,10 @@ h1 {
   font-size: 400%;
 }
 
+
+
+
+/* CSS for the carousel */
 .container {
 	display: flex;
 	flex-direction: column;
@@ -16,7 +20,7 @@ h1 {
 
 .carousel-container {
 	width: 70%;
-  height: 40%;
+  height: 25%;
 	display: flex;
 	justify-content: center;
 }

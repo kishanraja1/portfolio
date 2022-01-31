@@ -8,6 +8,8 @@ const toggleItems = () => {
 
 $(() => {
 
+/////////// DROPDOWN BUTTON //////////////////
+
 $('.dropbtn').on('click', toggleItems)
 
 ////////////// Function for accordion function//////////////////////

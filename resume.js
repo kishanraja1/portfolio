@@ -15,16 +15,17 @@ $('.dropbtn').on('click', toggleItems)
 
 //////// ACCORDION FEATURE //////////////
 
+
   const $resumeSection = $(".info")
   $resumeSection.hide();
 
   const $h3 = $(".accordion h3")
+  const $footer = $('footer')
 
   $h3.click(function(){
     // toggle the div immediately after the clicked h3
     $(this).next("div").slideToggle()
-    //toggle all currently visible divs
-    .siblings("div:visible").slideToggle();
+    $footer.css('position', 'sticky').css('bottom', '0')
 
    ; })
 

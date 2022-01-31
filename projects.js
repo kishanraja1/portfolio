@@ -7,10 +7,17 @@ $(() => {
 
 
 /////// DROPDOWN MENU ///////////////////////
+
+
 $('.dropbtn').on('click', toggleItems)
 
 
-  ////////// CAROUSEL FEATURE //////////////////////
+
+
+////////// CAROUSEL FEATURE //////////////////////
+
+
+  // Used mardown in class for guidance to complete this
 
   currentImgIndex = 0;
   numOfImages = $('.carousel-images').children().length - 1
